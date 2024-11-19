@@ -1,0 +1,19 @@
+public class Character {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		char[] ch=new char[10];
+		Scanner scanner=new Scanner(System.in);
+				System.out.println("enter the characters : ");
+				
+				
+		for(int i=0;i<ch.length;i++)
+		{
+         ch[i]=scanner.next().charAt(10);
+		}
+		for(int i=0;i<ch.length;i++)
+		{
+			System.out.println(ch[i]);
+		}
+         
+	}
